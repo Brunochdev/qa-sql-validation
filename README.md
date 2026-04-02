@@ -29,6 +29,8 @@ O projeto foi dividido em duas fases:
 - DBeaver
 - SQL
 
+![Example validation](docs/images/test-result-1.png)
+
 ---
 
 ## 🇺🇸 English
@@ -59,3 +61,5 @@ The project is divided into two phases:
 - PostgreSQL
 - DBeaver
 - SQL
+
+![Example validation](docs/images/test-result-1.png)

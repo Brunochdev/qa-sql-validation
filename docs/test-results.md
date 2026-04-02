@@ -24,7 +24,7 @@
   - 12345678900
   - 98765432100
 
-📸 ![Teste CPF duplicado](images/teste-result-1.png)
+📸 ![Teste CPF duplicado](docs/images/teste-result-1.png)
 
 ---
 
@@ -32,7 +32,7 @@
 - Email duplicado encontrado:
   - bruno@email.com
 
-📸 ![Teste Email duplicado](images/teste-result-2.png)
+📸 ![Teste Email duplicado](docs/images/teste-result-2.png)
 
 ---
 
@@ -40,7 +40,7 @@
 - 1 registro com email NULL
 - 1 registro com name NULL
 
-📸 ![Teste Campos NULL](images/teste-result-3.png)
+📸 ![Teste Campos NULL](docs/images/teste-result-3.png)
 
 ---
 
@@ -48,7 +48,7 @@
 - Username duplicado:
   - bruno
 
-📸 ![Teste Username duplicado](images/teste-result-4.png)
+📸 ![Teste Username duplicado](docs/images/teste-result-4.png)
 
 ---
 
@@ -80,7 +80,7 @@ A ausência de constraints permite a inserção de dados inconsistentes, comprom
   - 12345678900
   - 98765432100
 
-📸 ![Duplicate CPF test](images/teste-result-1.png)
+📸 ![Duplicate CPF test](docs/images/teste-result-1.png)
 
 ---
 
@@ -88,7 +88,7 @@ A ausência de constraints permite a inserção de dados inconsistentes, comprom
 - Duplicate email:
   - bruno@email.com
 
-📸 ![Duplicate Email test](images/teste-result-2.png)
+📸 ![Duplicate Email test](docs/images/teste-result-2.png)
 
 ---
 
@@ -96,7 +96,7 @@ A ausência de constraints permite a inserção de dados inconsistentes, comprom
 - 1 record with NULL email
 - 1 record with NULL name
 
-📸 ![NULL field test](images/teste-result-3.png)
+📸 ![NULL field test](docs/images/teste-result-3.png)
 
 ---
 
@@ -104,7 +104,7 @@ A ausência de constraints permite a inserção de dados inconsistentes, comprom
 - Duplicate username:
   - bruno
 
-📸 ![Duplicate Username test](images/teste-result-4.png)
+📸 ![Duplicate Username test](docs/images/teste-result-4.png)
 
 ---
 
