@@ -1,0 +1,8 @@
+CREATE TABLE users (
+    id SERIAL PRIMARY KEY,
+    name TEXT,
+    username TEXT,
+    email TEXT,
+    cpf TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
