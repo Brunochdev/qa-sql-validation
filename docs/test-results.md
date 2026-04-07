@@ -58,6 +58,55 @@ A ausência de constraints permite a inserção de dados inconsistentes, comprom
 
 ---
 
+# Fase 2 — Com Constraints (Prevenção)
+
+## Resumo
+
+| Teste | Descrição                 | Resultado |
+|------|--------------------------|----------|
+| 05   | Bloqueio de CPF duplicado | PASS     |
+| 06   | Bloqueio de email duplicado | PASS   |
+| 07   | Bloqueio de username duplicado | PASS |
+| 08   | Bloqueio de campos NULL   | PASS     |
+
+---
+
+## Evidências
+
+### Teste 05 — CPF duplicado
+- Tentativa de inserção bloqueada pelo banco (UNIQUE constraint)
+
+📸 ![Erro CPF duplicado](images/test-result-5.png)
+
+---
+
+### Teste 06 — Email duplicado
+- Tentativa de inserção bloqueada
+
+📸 ![Erro email duplicado](images/test-result-6.png)
+
+---
+
+### Teste 07 — Username duplicado
+- Tentativa de inserção bloqueada
+
+📸 ![Erro username duplicado](images/test-result-7.png)
+
+---
+
+### Teste 08 — Campo NULL
+- Tentativa de inserção com valor NULL bloqueada
+
+📸 ![Erro campo null](images/test-result-8.png)
+
+---
+
+## Conclusão — Fase 2
+
+Após a aplicação de constraints, o banco passou a impedir a inserção de dados inválidos, garantindo a integridade da informação.
+
+---
+
 ## 🇺🇸 English
 
 # Phase 1 — Without Constraints (Detection)
@@ -112,3 +161,51 @@ A ausência de constraints permite a inserção de dados inconsistentes, comprom
 
 Lack of constraints allows inconsistent data, compromising database integrity.
 
+---
+
+# Phase 2 — With Constraints (Prevention)
+
+## Summary
+
+| Test | Description              | Result |
+|------|--------------------------|--------|
+| 05   | Prevent duplicate CPF    | PASS   |
+| 06   | Prevent duplicate email  | PASS   |
+| 07   | Prevent duplicate username | PASS |
+| 08   | Prevent NULL fields      | PASS   |
+
+---
+
+## Evidence
+
+### Test 05 — Duplicate CPF
+- Insert operation blocked by UNIQUE constraint
+
+📸 ![Duplicate CPF error](images/test-result-5.png)
+
+---
+
+### Test 06 — Duplicate Email
+- Insert blocked by database
+
+📸 ![Duplicate email error](images/test-result-6.png)
+
+---
+
+### Test 07 — Duplicate Username
+- Insert blocked
+
+📸 ![Duplicate username error](images/test-result-7.png)
+
+---
+
+### Test 08 — NULL Fields
+- Insert with NULL value blocked
+
+📸 ![NULL error](images/test-result-8.png)
+
+---
+
+## Conclusion — Phase 2
+
+After applying constraints, the database successfully prevents invalid data, ensuring data integrity.

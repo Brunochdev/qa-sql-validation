@@ -18,6 +18,8 @@ O projeto foi dividido em duas fases:
 - Aplicação de regras de integridade
 - Validação do comportamento do banco ao impedir erros
 
+Além disso, foi necessário realizar saneamento de dados antes da aplicação das constraints, simulando cenários reais de sistemas legados.
+
 ### O que foi testado
 - CPF duplicado
 - Email duplicado
@@ -50,6 +52,8 @@ The project is divided into two phases:
 **Phase 2 — With constraints**
 - Applying integrity rules
 - Validating database behavior when preventing errors
+
+Data cleanup was required before applying constraints, simulating real-world legacy system scenarios.
 
 ### What was tested
 - Duplicate CPF
